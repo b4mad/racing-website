@@ -1,1 +1,0 @@
-# Shade Pro Gatsby
