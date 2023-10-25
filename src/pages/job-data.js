@@ -74,7 +74,7 @@ const JobOpenings = () => {
                       ></i>
                       statistical analysis, classification, and cluster analysis
                     </li>
-                    
+
                   </ul>
                 </div>
                 <div className="single-block mb-12 mb-lg-15">

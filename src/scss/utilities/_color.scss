@@ -10,7 +10,7 @@
       color: rgba($value,$op-value);
     }
   }
-  
+
 }
 @each $op-key,$op-value in $gr-opacity{
   .gr-opacity-#{$op-key}{

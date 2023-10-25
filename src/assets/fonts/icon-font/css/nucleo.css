@@ -13,7 +13,7 @@ Generated using nucleoapp.com
 }
 
 /*------------------------
-	base class definition
+    base class definition
 -------------------------*/
 .icon {
   display: inline-block;
@@ -144,7 +144,7 @@ Generated using nucleoapp.com
 }
 
 /*------------------------
-	icons
+    icons
 -------------------------*/
 .icon-cloud-download-95::before {
   content: "\ea02";

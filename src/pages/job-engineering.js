@@ -65,7 +65,7 @@ const JobOpenings = () => {
                         `}
                       ></i>
 cloud native development
-                      
+
                     </li>
                     <li className="mt-7 gr-text-9 text-color-opacity">
                       <i

@@ -12,7 +12,7 @@ $theme-mode-active: 'light';
 
 body[data-theme='dark'],.dark-bg,.dark-mode-texts{
   @include dark-theme-mode;
-  
+
 }
 .light-version-logo,.light-shape{
   display: none;
@@ -36,7 +36,7 @@ body{
   } @else {
     @include light-theme-mode;
   }
- 
+
 }
 
 .default-logo,.default-shape{
@@ -71,7 +71,7 @@ body[data-theme='dark'],.dark-bg,.dark-mode-texts{
 }
 
 body[data-theme='light'],.light-bg,.light-mode-texts {
-  
+
   .light-version-logo{
     display: block;
   }
@@ -95,7 +95,7 @@ body[data-theme='light'],.light-bg,.light-mode-texts {
       display: none;
     }
   }
-  
+
   .default-logo,.default-shape{
     display: none;
   }

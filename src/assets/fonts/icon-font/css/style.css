@@ -12,7 +12,7 @@ Generated using nucleoapp.com
   font-style: normal;
 }
 /*------------------------
-	base class definition
+    base class definition
 -------------------------*/
 .icon {
   display: inline-block;
@@ -151,7 +151,7 @@ Generated using nucleoapp.com
   transform: scale(1, -1);
 }
 /*------------------------
-	icons
+    icons
 -------------------------*/
 
 .icon-tail-right::before {
@@ -1145,4 +1145,3 @@ Generated using nucleoapp.com
 .icon-logo-slack::before {
   content: "\eafa";
 }
-

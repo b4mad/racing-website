@@ -105,7 +105,7 @@ const Jobs = () => {
               <div className="section-title mb-9 mb-sm-13 mb-lg-21">
                 <h2 className="title gr-text-4 mb-6 heading-color">Leadership Team</h2>
                 <p className="gr-text-8 text-color-opacity">
-                Our leadership team ist setting the direction of our products and platform. The driving forces are: community and racing, supported by strong user experience and data science. 
+                Our leadership team ist setting the direction of our products and platform. The driving forces are: community and racing, supported by strong user experience and data science.
                 </p>
               </div>
             </Col>

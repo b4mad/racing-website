@@ -70,7 +70,7 @@ const Community = () => {
                   #B4mad is a strongly community-oriented effort. Anybody can contribute to the project.
                   Our use of Open Source technologies means that community participants can easily contribute to the project.
                 </p>
-               
+
               </div>
             </Col>
           </Row>

@@ -23,7 +23,7 @@ const Team = () => {
               <div className="section-title text-center mb-13 mb-lg-23 px-lg-7">
                 <h2 className="title gr-text-4 mb-6 heading-color">Leadership Team</h2>
                 <p className="gr-text-8 mb-0 text-color-opacity">
-                Our team sets the direction for the projects that make up our solution. 
+                Our team sets the direction for the projects that make up our solution.
                 </p>
               </div>
             </Col>
@@ -102,7 +102,7 @@ const Team = () => {
                      Community/Marketing
                   </h5>
                   <p className="gr-text-11 text-color-opacity mb-0 text-color-opacity">
-                  Technical marketing and communications expert with a background in motorsports. 
+                  Technical marketing and communications expert with a background in motorsports.
                     <br/>
                   <a href="http://www.linkedin.com/in/erikmjacobs">linkedin.com/in/erikmjacobs</a>
                   </p>

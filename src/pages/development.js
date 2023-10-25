@@ -20,7 +20,7 @@ const TermsConditions = () => {
                   Development
                   </h2>
                   <p className="gr-text-8 mb-13 text-color-opacity">
-                    
+
                   </p>
                 </div>
               </Col>

@@ -72,7 +72,7 @@ const JobOpenings = () => {
                       ></i>
                       branding, styling
                     </li>
-                    
+
                   </ul>
                 </div>
                 <div className="single-block mb-12 mb-lg-15">

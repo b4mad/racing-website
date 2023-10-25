@@ -25,29 +25,29 @@
             color: $color-primary;
         }
     }
-    
+
     .tagline {
         font-weight: 600;
         font-size: 20px;
         p {
             margin-bottom: 5px;
             &:last-child {
-	            margin-bottom: 0;
+                margin-bottom: 0;
             }
         }
         .text-highlight{
             color: darken($color-primary, 20%);
         }
     }
-    
+
     .fa-heart {
         color: $color-pink;
     }
-    
+
     .cta-container {
         margin-top: 30px;
     }
-    
+
     .social-container {
 
         .twitter-tweet {
@@ -60,13 +60,13 @@
             display: inline-block;
         }
     }
-    
+
 }
 
 .cards-section {
     padding: 60px 0;
     background: $smoky-grey;
-    
+
     .title {
         margin-top: 0;
         margin-bottom: 15px;
@@ -86,7 +86,7 @@
     }
     .item {
         margin-bottom: 30px;
-        
+
         .icon-holder {
             margin-bottom: 15px;
         }
@@ -100,7 +100,7 @@
         .intro {
             margin-bottom: 15px;
         }
-        
+
     }
     .item-inner {
         padding: 45px 30px;
@@ -109,9 +109,9 @@
         border: 1px solid $divider;
         @include border-radius(4px);
         height: 100%;
-        
+
         .link {
-            position:absolute; 
+            position:absolute;
             width:100%;
             height:100%;
             top:0;
@@ -119,13 +119,13 @@
             z-index: 1;
             background-image: url("../images/empty.gif"); /* for IE8 */
         }
-        
+
         &:hover {
             background: $smoky-white;
         }
-        
+
     }
-    
+
     .item-primary {
         .item-inner {
             border-top: 3px solid $color-primary;
@@ -138,9 +138,9 @@
         .icon {
             color: $color-primary;
         }
-        
+
     }
-    
+
     .item-green {
         .item-inner {
             border-top: 3px solid $color-green;
@@ -153,9 +153,9 @@
         .icon {
             color: $color-green;
         }
-        
+
     }
-    
+
     .item-blue {
         .item-inner {
             border-top: 3px solid $color-blue;
@@ -228,17 +228,17 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-	.main-search-box {
-		width: 100%;
-	}
-	.main-search-box .search-form .search-input {
-	    width: 100%;
-	}
+    .main-search-box {
+        width: 100%;
+    }
+    .main-search-box .search-form .search-input {
+        width: 100%;
+    }
 }
 
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
     .cards-section .item-inner {
         padding: 30px 15px;
     }
@@ -246,20 +246,14 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-	.main-search-box .search-form .search-input {
-	    width: 400px;
-	}
+    .main-search-box .search-form .search-input {
+        width: 400px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-	.main-search-box .search-form .search-input {
-	    width: 560px;
-	}
+@media (min-width: 768px) {
+    .main-search-box .search-form .search-input {
+        width: 560px;
+    }
 }
-
-
-
-
-
-

@@ -76,12 +76,12 @@
                 position: absolute;
                 background-color: #000;
             }
-			code[data-code], code.block-code {
+            code[data-code], code.block-code {
                 display:block;
                 overflow:scroll;
                 font-size:12px;
-				white-space: pre;
-			}
+                white-space: pre;
+            }
 
             table {
                 font-size:12px;
@@ -133,7 +133,7 @@
                             <h1>Lightbox for Bootstrap</h1>
                             <p class="lead">Utilizes Bootstraps modal plugin to implement a lightbox gallery - <a href="//github.com/ashleydw/lightbox">GitHub</a></p>
                             <div class="text-center">
-                                <iframe src="http://ghbtns.com/github-btn.html?user=ashleydw&repo=lightbox&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100	" height="20"></iframe>
+                                <iframe src="http://ghbtns.com/github-btn.html?user=ashleydw&repo=lightbox&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100 " height="20"></iframe>
                                 <iframe src="http://ghbtns.com/github-btn.html?user=ashleydw&repo=lightbox&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
                                 <iframe src="http://ghbtns.com/github-btn.html?user=ashleydw&repo=lightbox&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="160" height="20"></iframe>
                             </div>
@@ -467,7 +467,7 @@ $(&#39;#open-youtube&#39;).click(function (e) {
 
                     <h3 id="hidden-elements">Hidden elements</h3>
                     <p>Facebook style, only show a few images but have a large gallery</p>
-					<div class="row">
+                    <div class="row">
                         <div class="offset-md-2 col-md-8">
                             <div class="row" data-code="example-9">
                                 <a href="https://unsplash.it/1200/768.jpg?image=263" data-toggle="lightbox" data-gallery="hidden-images" class="col-sm-4">
@@ -491,8 +491,8 @@ $(&#39;#open-youtube&#39;).click(function (e) {
                     <code data-code="example-9"></code>
 
                     <h3 id="remote-content">Remote content</h3>
-					<p>Given a URL, that is not an image or video (including unforced types), load the content using an iFrame.</p>
-					<div class="row">
+                    <p>Given a URL, that is not an image or video (including unforced types), load the content using an iFrame.</p>
+                    <div class="row">
                         <div class="offset-md-1 col-md-10" data-code="example-10">
                             <div class="row">
                                 <p class="col-sm-3"><a href="http://getbootstrap.com" data-title="Bootstrap" data-width="1200" data-toggle="lightbox" data-gallery="remoteload">Bootstrap Docs</a></p>
@@ -525,11 +525,11 @@ $(&#39;#open-youtube&#39;).click(function (e) {
                                 return console.log('Checking our the events huh?');
                             }
                         },
-						onNavigate: function(direction, itemIndex) {
+                        onNavigate: function(direction, itemIndex) {
                             if (window.console) {
                                 return console.log('Navigating '+direction+'. Current item: '+itemIndex);
                             }
-						}
+                        }
                     });
                 });
 
@@ -543,17 +543,17 @@ $(&#39;#open-youtube&#39;).click(function (e) {
                     $(this).ekkoLightbox();
                 });
 
-				// navigateTo
+                // navigateTo
                 $(document).on('click', '[data-toggle="lightbox"][data-gallery="navigateTo"]', function(event) {
                     event.preventDefault();
 
                     return $(this).ekkoLightbox({
                         onShown: function() {
 
-							this.modal().on('click', '.modal-footer a', function(e) {
+                            this.modal().on('click', '.modal-footer a', function(e) {
 
-								e.preventDefault();
-								this.navigateTo(2);
+                                e.preventDefault();
+                                this.navigateTo(2);
 
                             }.bind(this));
 

@@ -14,7 +14,7 @@ html, body {
 .page-wrapper {
     min-height: 100%;
     /* equal to footer height */
-    margin-bottom: -50px; 
+    margin-bottom: -50px;
     &:after {
         content: "";
         display: block;
@@ -35,7 +35,7 @@ a {
     @include transition (all 0.4s ease-in-out);
     &:hover {
         text-decoration: underline;
-        color: darken($color-primary, 10%);        
+        color: darken($color-primary, 10%);
     }
     &:focus {
         text-decoration: none;
@@ -55,99 +55,99 @@ code {
 }
 
 .btn, a.btn {
-	@include transition (all 0.4s ease-in-out);
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 1.5;
-	.svg-inline--fa {
-		margin-right: 5px;
-		position: relative;
-		top: -1px;
-	}
+    @include transition (all 0.4s ease-in-out);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    .svg-inline--fa {
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+    }
 }
 
 .btn-primary, a.btn-primary {
-	background: $color-primary;
-	border: 1px solid $color-primary;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-primary, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-primary, 5%);
-	}
+    background: $color-primary;
+    border: 1px solid $color-primary;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-primary, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-primary, 5%);
+    }
 }
 
 .btn-green, a.btn-green {
     background: $color-green;
-	border: 1px solid $color-green;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-green, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-green, 5%);
-	}
-	.body-green & {
-    	color: #fff !important;
-    	&:hover, &:focus, &:active, &.active, &.hover {
-        	color: #fff !important;
-    	}
-	}
+    border: 1px solid $color-green;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-green, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-green, 5%);
+    }
+    .body-green & {
+        color: #fff !important;
+        &:hover, &:focus, &:active, &.active, &.hover {
+            color: #fff !important;
+        }
+    }
 }
 
 .btn-blue, a.btn-blue {
     background: $color-blue;
-	border: 1px solid $color-blue;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-blue, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-blue, 5%);
-	}
+    border: 1px solid $color-blue;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-blue, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-blue, 5%);
+    }
 }
 
 .btn-orange, a.btn-orange {
     background: $color-orange;
-	border: 1px solid $color-orange;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-orange, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-orange, 5%);
-	}
+    border: 1px solid $color-orange;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-orange, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-orange, 5%);
+    }
 }
 
 .btn-red, a.btn-red {
     background: $color-red;
-	border: 1px solid $color-red;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-red, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-red, 5%);
-	}
+    border: 1px solid $color-red;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-red, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-red, 5%);
+    }
 }
 
 .btn-pink, a.btn-pink {
     background: $color-pink;
-	border: 1px solid $color-pink;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-pink, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-pink, 5%);
-	}
+    border: 1px solid $color-pink;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-pink, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-pink, 5%);
+    }
 
 }
 
 .btn-purple, a.btn-purple {
     background: $color-purple;
-	border: 1px solid $color-purple;
-	color: #fff !important;
-	&:hover, &:focus, &:active, &.active, &.hover {
-		background: darken($color-purple, 5%);
-		color: #fff !important;
-		border: 1px solid darken($color-purple, 5%);
-	}
+    border: 1px solid $color-purple;
+    color: #fff !important;
+    &:hover, &:focus, &:active, &.active, &.hover {
+        background: darken($color-purple, 5%);
+        color: #fff !important;
+        border: 1px solid darken($color-purple, 5%);
+    }
 }
 
 .btn-cta {
@@ -155,11 +155,11 @@ code {
 }
 
 .search-btn {
-	height: 40px;
-	.svg-inline--fa {
-		top: 0;
-		margin-right: 0;
-	}
+    height: 40px;
+    .svg-inline--fa {
+        top: 0;
+        margin-right: 0;
+    }
 }
 
 .form-control {
@@ -170,14 +170,14 @@ code {
     &:focus {
         border-color: darken($divider, 5%);
         @include box-shadow(none);
-    }    
+    }
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="submit"],
-input[type="button"], 
+input[type="button"],
 textarea,
 select {
     appearance: none;  /* for mobile safari */
@@ -194,13 +194,13 @@ select {
         color: #fff;
     }
     .container {
-	    position: relative;
+        position: relative;
     }
 }
 .branding {
     text-transform: uppercase;
     margin-bottom: 10px;
-    
+
     .logo {
         font-size: 28px;
         margin-top: 0;
@@ -273,8 +273,8 @@ select {
                 color: #fff;
             }
         }
-    } 
-    
+    }
+
 }
 
 .breadcrumb>li+li:before {
@@ -286,35 +286,35 @@ select {
 
 .search-form {
     position: relative;
-	.search-input {
-		font-size: 14px;
-		@include border-radius(20px);
-		padding-top: 4px;
-		&:focus {
-			border-color: $text-color-secondary;
-		}
-	}
-	.search-btn {
-		color: lighten($text-color-secondary, 10%);
-		background: none;
-		border: none;
-		position: absolute;
-		right: 5px;
-		top: 0px;
-		margin-right: 0;
-		&:active, &:focus, &:hover {
-			outline: none !important;
-			color: darken($text-color, 10%);
-			
-		}
-		
-	}
+    .search-input {
+        font-size: 14px;
+        @include border-radius(20px);
+        padding-top: 4px;
+        &:focus {
+            border-color: $text-color-secondary;
+        }
+    }
+    .search-btn {
+        color: lighten($text-color-secondary, 10%);
+        background: none;
+        border: none;
+        position: absolute;
+        right: 5px;
+        top: 0px;
+        margin-right: 0;
+        &:active, &:focus, &:hover {
+            outline: none !important;
+            color: darken($text-color, 10%);
+
+        }
+
+    }
 }
 
 .top-search-box {
-	position: absolute;
-	right: 15px;
-	top: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 /* ====== Footer ====== */
@@ -333,11 +333,11 @@ select {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-	.top-search-box {
-		width: 100%;
-		position: static;
-		margin-top: 15px;
-		
-	}
+    .top-search-box {
+        width: 100%;
+        position: static;
+        margin-top: 15px;
+
+    }
 
 }

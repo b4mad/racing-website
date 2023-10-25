@@ -21,7 +21,7 @@ const Services = () => {
                 </h4>
                 <h2 className="title gr-text-4 heading-color">
                   Our modular architecture is comprised of three main components.
-                  <br className="d-none d-lg-block" /> 
+                  <br className="d-none d-lg-block" />
                 </h2>
               </div>
             </Col>

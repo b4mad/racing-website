@@ -93,14 +93,14 @@ p{
   }
   &-12 {
     @include font-size($h8-font-size);//Approx 13 px
-    line-height: 1.63;  
+    line-height: 1.63;
     &.gr-lh-reset {
       @include line-height-reset(1.73);
     }
   }
   &-13 {
     font-size: $font-size-base * 0.625; //Approx 10 px
-    line-height: 1.63;  
+    line-height: 1.63;
   }
   &-14 {
     font-size: $font-size-base * 0.5; //Approx 8 px

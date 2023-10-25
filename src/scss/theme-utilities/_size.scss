@@ -10,7 +10,7 @@
 }
 .min-h-vh-100{
   min-height: 100vh;
- 
+
 }
 .h-xs-100{
   @include mobile{
@@ -24,7 +24,7 @@
 }
 .h-md-100{
   @include mobile-lg{
-    height: 100%!important; 
+    height: 100%!important;
   }
 }
 .h-lg-100{
